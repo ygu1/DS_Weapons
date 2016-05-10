@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A8A2DDF1CE1B0CF0035B8CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8A2DDE1CE1B0CF0035B8CE /* AppDelegate.swift */; };
+		5A8A2DE11CE1B0CF0035B8CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8A2DE01CE1B0CF0035B8CE /* ViewController.swift */; };
+		5A8A2DE41CE1B0CF0035B8CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A8A2DE21CE1B0CF0035B8CE /* Main.storyboard */; };
+		5A8A2DE71CE1B0CF0035B8CE /* DS_Weapons.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A8A2DE51CE1B0CF0035B8CE /* DS_Weapons.xcdatamodeld */; };
+		5A8A2DE91CE1B0CF0035B8CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A8A2DE81CE1B0CF0035B8CE /* Assets.xcassets */; };
+		5A8A2DEC1CE1B0CF0035B8CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A8A2DEA1CE1B0CF0035B8CE /* LaunchScreen.storyboard */; };
+		5A8A2DF71CE1B0CF0035B8CE /* DS_WeaponsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8A2DF61CE1B0CF0035B8CE /* DS_WeaponsTests.swift */; };
+		5A8A2E021CE1B0CF0035B8CE /* DS_WeaponsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A8A2E011CE1B0CF0035B8CE /* DS_WeaponsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A8A2DF31CE1B0CF0035B8CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A8A2DD31CE1B0CF0035B8CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A8A2DDA1CE1B0CF0035B8CE;
+			remoteInfo = "DS Weapons";
+		};
+		5A8A2DFE1CE1B0CF0035B8CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A8A2DD31CE1B0CF0035B8CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A8A2DDA1CE1B0CF0035B8CE;
+			remoteInfo = "DS Weapons";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A8A2DDB1CE1B0CF0035B8CE /* DS Weapons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DS Weapons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8A2DDE1CE1B0CF0035B8CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A8A2DE01CE1B0CF0035B8CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A8A2DE31CE1B0CF0035B8CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A8A2DE61CE1B0CF0035B8CE /* DS_Weapons.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DS_Weapons.xcdatamodel; sourceTree = "<group>"; };
+		5A8A2DE81CE1B0CF0035B8CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A8A2DEB1CE1B0CF0035B8CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A8A2DED1CE1B0CF0035B8CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A8A2DF21CE1B0CF0035B8CE /* DS WeaponsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DS WeaponsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8A2DF61CE1B0CF0035B8CE /* DS_WeaponsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DS_WeaponsTests.swift; sourceTree = "<group>"; };
+		5A8A2DF81CE1B0CF0035B8CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A8A2DFD1CE1B0CF0035B8CE /* DS WeaponsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DS WeaponsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A8A2E011CE1B0CF0035B8CE /* DS_WeaponsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DS_WeaponsUITests.swift; sourceTree = "<group>"; };
+		5A8A2E031CE1B0CF0035B8CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A8A2DD81CE1B0CF0035B8CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A8A2DEF1CE1B0CF0035B8CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A8A2DFA1CE1B0CF0035B8CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A8A2DD21CE1B0CF0035B8CE = {
+			isa = PBXGroup;
+			children = (
+				5A8A2DDD1CE1B0CF0035B8CE /* DS Weapons */,
+				5A8A2DF51CE1B0CF0035B8CE /* DS WeaponsTests */,
+				5A8A2E001CE1B0CF0035B8CE /* DS WeaponsUITests */,
+				5A8A2DDC1CE1B0CF0035B8CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A8A2DDC1CE1B0CF0035B8CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A8A2DDB1CE1B0CF0035B8CE /* DS Weapons.app */,
+				5A8A2DF21CE1B0CF0035B8CE /* DS WeaponsTests.xctest */,
+				5A8A2DFD1CE1B0CF0035B8CE /* DS WeaponsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A8A2DDD1CE1B0CF0035B8CE /* DS Weapons */ = {
+			isa = PBXGroup;
+			children = (
+				5A8A2DDE1CE1B0CF0035B8CE /* AppDelegate.swift */,
+				5A8A2DE01CE1B0CF0035B8CE /* ViewController.swift */,
+				5A8A2DE21CE1B0CF0035B8CE /* Main.storyboard */,
+				5A8A2DE81CE1B0CF0035B8CE /* Assets.xcassets */,
+				5A8A2DEA1CE1B0CF0035B8CE /* LaunchScreen.storyboard */,
+				5A8A2DED1CE1B0CF0035B8CE /* Info.plist */,
+				5A8A2DE51CE1B0CF0035B8CE /* DS_Weapons.xcdatamodeld */,
+			);
+			path = "DS Weapons";
+			sourceTree = "<group>";
+		};
+		5A8A2DF51CE1B0CF0035B8CE /* DS WeaponsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A8A2DF61CE1B0CF0035B8CE /* DS_WeaponsTests.swift */,
+				5A8A2DF81CE1B0CF0035B8CE /* Info.plist */,
+			);
+			path = "DS WeaponsTests";
+			sourceTree = "<group>";
+		};
+		5A8A2E001CE1B0CF0035B8CE /* DS WeaponsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A8A2E011CE1B0CF0035B8CE /* DS_WeaponsUITests.swift */,
+				5A8A2E031CE1B0CF0035B8CE /* Info.plist */,
+			);
+			path = "DS WeaponsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A8A2DDA1CE1B0CF0035B8CE /* DS Weapons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A8A2E061CE1B0CF0035B8CE /* Build configuration list for PBXNativeTarget "DS Weapons" */;
+			buildPhases = (
+				5A8A2DD71CE1B0CF0035B8CE /* Sources */,
+				5A8A2DD81CE1B0CF0035B8CE /* Frameworks */,
+				5A8A2DD91CE1B0CF0035B8CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DS Weapons";
+			productName = "DS Weapons";
+			productReference = 5A8A2DDB1CE1B0CF0035B8CE /* DS Weapons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A8A2DF11CE1B0CF0035B8CE /* DS WeaponsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A8A2E091CE1B0CF0035B8CE /* Build configuration list for PBXNativeTarget "DS WeaponsTests" */;
+			buildPhases = (
+				5A8A2DEE1CE1B0CF0035B8CE /* Sources */,
+				5A8A2DEF1CE1B0CF0035B8CE /* Frameworks */,
+				5A8A2DF01CE1B0CF0035B8CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A8A2DF41CE1B0CF0035B8CE /* PBXTargetDependency */,
+			);
+			name = "DS WeaponsTests";
+			productName = "DS WeaponsTests";
+			productReference = 5A8A2DF21CE1B0CF0035B8CE /* DS WeaponsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A8A2DFC1CE1B0CF0035B8CE /* DS WeaponsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A8A2E0C1CE1B0CF0035B8CE /* Build configuration list for PBXNativeTarget "DS WeaponsUITests" */;
+			buildPhases = (
+				5A8A2DF91CE1B0CF0035B8CE /* Sources */,
+				5A8A2DFA1CE1B0CF0035B8CE /* Frameworks */,
+				5A8A2DFB1CE1B0CF0035B8CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A8A2DFF1CE1B0CF0035B8CE /* PBXTargetDependency */,
+			);
+			name = "DS WeaponsUITests";
+			productName = "DS WeaponsUITests";
+			productReference = 5A8A2DFD1CE1B0CF0035B8CE /* DS WeaponsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A8A2DD31CE1B0CF0035B8CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Yanliang Gu";
+				TargetAttributes = {
+					5A8A2DDA1CE1B0CF0035B8CE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5A8A2DF11CE1B0CF0035B8CE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5A8A2DDA1CE1B0CF0035B8CE;
+					};
+					5A8A2DFC1CE1B0CF0035B8CE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5A8A2DDA1CE1B0CF0035B8CE;
+					};
+				};
+			};
+			buildConfigurationList = 5A8A2DD61CE1B0CF0035B8CE /* Build configuration list for PBXProject "DS Weapons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A8A2DD21CE1B0CF0035B8CE;
+			productRefGroup = 5A8A2DDC1CE1B0CF0035B8CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A8A2DDA1CE1B0CF0035B8CE /* DS Weapons */,
+				5A8A2DF11CE1B0CF0035B8CE /* DS WeaponsTests */,
+				5A8A2DFC1CE1B0CF0035B8CE /* DS WeaponsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A8A2DD91CE1B0CF0035B8CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8A2DEC1CE1B0CF0035B8CE /* LaunchScreen.storyboard in Resources */,
+				5A8A2DE91CE1B0CF0035B8CE /* Assets.xcassets in Resources */,
+				5A8A2DE41CE1B0CF0035B8CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A8A2DF01CE1B0CF0035B8CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A8A2DFB1CE1B0CF0035B8CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A8A2DD71CE1B0CF0035B8CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8A2DE11CE1B0CF0035B8CE /* ViewController.swift in Sources */,
+				5A8A2DDF1CE1B0CF0035B8CE /* AppDelegate.swift in Sources */,
+				5A8A2DE71CE1B0CF0035B8CE /* DS_Weapons.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A8A2DEE1CE1B0CF0035B8CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8A2DF71CE1B0CF0035B8CE /* DS_WeaponsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A8A2DF91CE1B0CF0035B8CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8A2E021CE1B0CF0035B8CE /* DS_WeaponsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A8A2DF41CE1B0CF0035B8CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A8A2DDA1CE1B0CF0035B8CE /* DS Weapons */;
+			targetProxy = 5A8A2DF31CE1B0CF0035B8CE /* PBXContainerItemProxy */;
+		};
+		5A8A2DFF1CE1B0CF0035B8CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A8A2DDA1CE1B0CF0035B8CE /* DS Weapons */;
+			targetProxy = 5A8A2DFE1CE1B0CF0035B8CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A8A2DE21CE1B0CF0035B8CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A8A2DE31CE1B0CF0035B8CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A8A2DEA1CE1B0CF0035B8CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A8A2DEB1CE1B0CF0035B8CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A8A2E041CE1B0CF0035B8CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A8A2E051CE1B0CF0035B8CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A8A2E071CE1B0CF0035B8CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DS Weapons/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yanliang.DS-Weapons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A8A2E081CE1B0CF0035B8CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DS Weapons/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yanliang.DS-Weapons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A8A2E0A1CE1B0CF0035B8CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "DS WeaponsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yanliang.DS-WeaponsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DS Weapons.app/DS Weapons";
+			};
+			name = Debug;
+		};
+		5A8A2E0B1CE1B0CF0035B8CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "DS WeaponsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yanliang.DS-WeaponsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DS Weapons.app/DS Weapons";
+			};
+			name = Release;
+		};
+		5A8A2E0D1CE1B0CF0035B8CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "DS WeaponsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yanliang.DS-WeaponsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "DS Weapons";
+			};
+			name = Debug;
+		};
+		5A8A2E0E1CE1B0CF0035B8CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "DS WeaponsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yanliang.DS-WeaponsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "DS Weapons";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A8A2DD61CE1B0CF0035B8CE /* Build configuration list for PBXProject "DS Weapons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A8A2E041CE1B0CF0035B8CE /* Debug */,
+				5A8A2E051CE1B0CF0035B8CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A8A2E061CE1B0CF0035B8CE /* Build configuration list for PBXNativeTarget "DS Weapons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A8A2E071CE1B0CF0035B8CE /* Debug */,
+				5A8A2E081CE1B0CF0035B8CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A8A2E091CE1B0CF0035B8CE /* Build configuration list for PBXNativeTarget "DS WeaponsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A8A2E0A1CE1B0CF0035B8CE /* Debug */,
+				5A8A2E0B1CE1B0CF0035B8CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A8A2E0C1CE1B0CF0035B8CE /* Build configuration list for PBXNativeTarget "DS WeaponsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A8A2E0D1CE1B0CF0035B8CE /* Debug */,
+				5A8A2E0E1CE1B0CF0035B8CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5A8A2DE51CE1B0CF0035B8CE /* DS_Weapons.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5A8A2DE61CE1B0CF0035B8CE /* DS_Weapons.xcdatamodel */,
+			);
+			currentVersion = 5A8A2DE61CE1B0CF0035B8CE /* DS_Weapons.xcdatamodel */;
+			path = DS_Weapons.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5A8A2DD31CE1B0CF0035B8CE /* Project object */;
+}
