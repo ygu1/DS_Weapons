@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,7 +17,38 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="titleImage" translatesAutoresizingMaskIntoConstraints="NO" id="Z4N-wY-7V0">
+                                <rect key="frame" x="0.0" y="20" width="600" height="120"/>
+                            </imageView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Hhb-9K-r6S">
+                                <rect key="frame" x="20" y="163" width="240" height="128"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="cR2-e4-Ltz">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="h71-pp-cpo">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.12223903799999999" green="0.12223903799999999" blue="0.12223903799999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Z4N-wY-7V0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="D4E-0Q-WEo"/>
+                            <constraint firstItem="Z4N-wY-7V0" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:5" id="bha-Wh-vha"/>
+                            <constraint firstItem="Z4N-wY-7V0" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="dBf-JK-0Rm"/>
+                            <constraint firstItem="Z4N-wY-7V0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="h8t-Uo-pE9"/>
+                        </constraints>
                     </view>
                     <connections>
                         <segue destination="Wu4-fa-eoi" kind="showDetail" id="rnu-fR-WA0"/>
@@ -76,4 +108,7 @@
             <point key="canvasLocation" x="1752" y="304"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="titleImage" width="600" height="120"/>
+    </resources>
 </document>
