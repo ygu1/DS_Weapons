@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Battle Axe</key>
+	<string>battle_axe-icon</string>
+	<key>Caestus</key>
+	<string>caestus-icon</string>
+	<key>Carthus Curved Greatsword</key>
+	<string>carthus_curved_greatsword-icon</string>
+	<key>Clerics Sacred Chime</key>
+	<string>clerics_sacred_chime-icon</string>
+	<key>Dagger</key>
+	<string>dagger-icon</string>
+	<key>Estoc</key>
+	<string>estoc-icon</string>
+	<key>Great Scythe</key>
+	<string>great_scythe-icon</string>
+	<key>Greataxe</key>
+	<string>greataxe-icon</string>
+	<key>Greatsword</key>
+	<string>greatsword-icon</string>
+	<key>Halberd</key>
+	<string>halberd-icon</string>
+	<key>Hollowslayer Greatsword</key>
+	<string>hollowslayer_greatsword-icon</string>
+	<key>Knights Crossbow</key>
+	<string>knights_crossbow-icon</string>
+	<key>Longbow</key>
+	<string>longbow-icon</string>
+	<key>Longsword</key>
+	<string>longsword-icon</string>
+	<key>Mace</key>
+	<string>mace-icon</string>
+	<key>Onislayer Greatbow</key>
+	<string>onislayer_greatbow-icon</string>
+	<key>Pyromancy Flame</key>
+	<string>pyromancy_flame-icon</string>
+	<key>Scimitar</key>
+	<string>scimitar-icon</string>
+	<key>Sorcerers Staff</key>
+	<string>sorcerers_staff-icon</string>
+	<key>Spear</key>
+	<string>spear-icon</string>
+	<key>Talisman</key>
+	<string>talisman-icon</string>
+	<key>Uchigatana</key>
+	<string>uchigatana-icon</string>
+	<key>Vordts Great Hammer</key>
+	<string>vordts_great_hammer-icon</string>
+	<key>Whip</key>
+	<string>whip-icon</string>
+</dict>
+</plist>
